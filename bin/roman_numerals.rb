@@ -47,7 +47,7 @@ puts "M" * thousands +
        "D" * five_hundreds +
        "CD" * four_hundreds +
        "C" * hundreds +
-       "IX" * nineties +
+       "XC" * nineties +
        "L" * fifties +
        "XL" * forties +
        "X" * tens +
