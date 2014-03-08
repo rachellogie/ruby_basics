@@ -10,7 +10,6 @@ describe "RomanNumerals" do
   end
 
   it "handles the numbers that are just below the next boundary" do
-    pending
     run_script("roman_numerals.rb")
     type("9")
 
@@ -19,7 +18,6 @@ describe "RomanNumerals" do
   end
 
   it "converts a double digit number to traditional roman numeral" do
-    pending
     run_script("roman_numerals.rb")
     type("39")
 
@@ -28,7 +26,6 @@ describe "RomanNumerals" do
   end
 
   it "converts the triple digit number to traditional roman numeral" do
-    pending
     run_script("roman_numerals.rb")
     type("257")
 
@@ -37,7 +34,6 @@ describe "RomanNumerals" do
   end
 
   it "converts the four-digit number to traditional roman numerals" do
-    pending
     run_script("roman_numerals.rb")
     type("1468")
 
