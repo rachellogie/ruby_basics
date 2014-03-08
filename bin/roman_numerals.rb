@@ -1,5 +1,6 @@
 #this program takes an integer and converts it to roman numerals
 
+puts "Please enter a number that you want to convert: "
 number = gets.chomp.to_i
 
 thousands = number / 1000
