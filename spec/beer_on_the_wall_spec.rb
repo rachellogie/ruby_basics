@@ -3,7 +3,6 @@ require 'spec_helper'
 describe "beer_on_the_wall" do
 
   it "prints out the first verse for 99 bottles of beer on the wall, when told to 'sing'" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("99")
 
@@ -12,7 +11,6 @@ describe "beer_on_the_wall" do
   end
 
   it "prints out the lyrics for the rest of the verses" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("8")
 
@@ -21,7 +19,6 @@ describe "beer_on_the_wall" do
   end
 
   it "correctly prints out the lyrics for 2 bottles of beer, when told to sing" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("2")
 
@@ -30,7 +27,6 @@ describe "beer_on_the_wall" do
   end
 
   it "correctly prints out the lyrics for 1 bottle of beer, when told to sing" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("1")
 
@@ -39,7 +35,6 @@ describe "beer_on_the_wall" do
   end
 
   it "correctly prints out the lyrics for no bottles of beer, when told to sing and there is no more beer left" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("0")
 
@@ -48,7 +43,6 @@ describe "beer_on_the_wall" do
   end
 
   it "throws an error if it does not know how many number of bottles" do
-    pending
     run_script("beer_on_the_wall.rb")
     type("")
 
